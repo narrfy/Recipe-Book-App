@@ -9,8 +9,16 @@ Using a basic understanding of kotlin I created a CRUD mobile app for recipes. T
 
 ## FEATURES
   - OOP
-  - Camera Usage (Not currently working)
+  - Camera Usage (Not working yet)
   - SQLite Database
+
+## USAGE
+  - Click on New (+) to add a new recipe (Cant take pictures yet)
+  - Click on View All (hamburger thing) to see all recipes on one screen and interact with them
+    - Share - This will export the information about the specific recipe into a file
+    - Delete - This will remove the specific recipe from the system
+  - Click Random to show a random recipe that has been added to the database
+  - Click Update to update information about the recipe you are currently looking at (Not working yet)
 
 ## DESCRIPTIONS
 
@@ -28,8 +36,8 @@ Using a basic understanding of kotlin I created a CRUD mobile app for recipes. T
   - Holds a toolbar to move around the application
 ### NewRecipe
   - Allows the user to create a new entry into the database
-  - Uses the camera and gallery to input an image into the database (Not working)
-  - Updating a recipe also comes to this page (It will autofill information) (Not working)
+  - Uses the camera and gallery to input an image into the database (Not working yet)
+  - Updating a recipe also comes to this page (It will autofill information) (Not working yet)
 ### RecipeActivity
   - Shows the recipe for the item that was in Main
 ### RecipeAdapter
